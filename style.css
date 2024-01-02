@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+.top{
+    background:#0b111f;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    /* border: 1.5px solid #0a1b41; */
+}
+.nav ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    margin-right: 47px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15.5px;
+    font-family: sans-serif;
+    color: #9ca3afd2;
+}
+.nav a:hover{
+    color: #fff;
+}
+.text-white:hover{
+    color: #fff;
+}
+.new{
+    background-color: #92c3fb;
+    color: #000000;
+    padding: 3px 5px;
+    font-size: smaller;
+    font-weight: 550;
+    border-radius: 3px;
+}
+
+.nav a span:hover{
+    background-color: #fff;
+}
+.items-box{
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.items-box:hover{
+    background: rgba(128, 128, 128, 0.26);;
+}
+.nav-items{
+    position: relative;
+    bottom: 2px;
+    margin: 1.5px;
+}
+.nav-items,.nav-item{
+    color: #9ca3afd2;
+}
+.nav .nav-item i:hover, .nav-items:hover{
+    background: none;
+}
+.nav-sign{
+    display: flex;
+    align-items: center;
+}
+.nav-sign-span{
+    margin-left: 50px;
+    margin-right: 15px;
+    color: rgb(132, 157, 168);
+}
+.nav-sign-span:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-button{
+    display: flex;
+    /* margin: 0px 60px; */
+    padding: 6px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    border: 0;
+    background: linear-gradient(100deg,#3160fa, rgb(5, 52, 206));
+    cursor: pointer;
+}
+.nav-button:hover{
+    background: #3160fa;
+}
