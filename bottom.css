@@ -1,0 +1,36 @@
+.bottom{
+    background: white;
+}
+.content-head{
+    margin: 50px 0 20px 0;
+}
+.content-para-span{
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+    border-bottom: 1px solid rgba(129, 166, 182, 0.43) ;
+    padding: 10px 0;
+}
+.content-para-span:hover{
+    color: rgb(59, 93, 245);
+    padding: 10px;
+    cursor: pointer;
+    /* transition-delay: 40ms ; */
+}
+.content-para-span2{
+    float: right;
+    color: rgba(75 ,85, 99, 1);
+    padding: 10px 0;
+    font: .75em sans-serif;
+    cursor: pointer;
+}
+.content-button{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    background: linear-gradient(to left, rgb(0, 0, 12),rgb(76, 76, 110));
+}
+.content-button:hover{
+    background: #3160fa;
+}
