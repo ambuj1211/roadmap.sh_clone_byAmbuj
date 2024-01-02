@@ -1,0 +1,43 @@
+
+.theme{
+    width: 100%;
+    height: 280px;
+    border-bottom: .5px solid rgba(129, 166, 182, 0.13);
+}
+.moto{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    top: -25px;
+}
+.moto-announcing{
+    font-size: medium;
+    /* font-weight: 500; */
+    border: 1px dashed rgba(130, 39, 210,1);
+    border-radius: 6px;
+    padding: 7px 10px;
+}
+.moto-announcing-span{
+    color: #fff;
+}
+.moto-announcing-otherspan{
+  color: rgb(192 132 242);
+}
+.moto-head{
+    background: -webkit-linear-gradient(#fff, rgb(163, 57, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.moto-moto{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(132, 157, 168);
+    width: 60%;
+}
